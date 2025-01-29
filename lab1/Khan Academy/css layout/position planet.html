@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ddd</title>
+  <style>
+    #container {
+      position: relative;
+      width: 300px;
+    }
+
+    #greeting {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgb(255, 255, 0);
+      border: 2px solid black;
+      font-family: "Comic Sans MS", fantasy;
+      padding: 5px;
+      width: 262px;
+      text-align: center;
+      z-index:1;
+    }
+
+    #planet {
+      display: block;
+      width: 300px;
+    }
+
+    #creature {
+      position: absolute;
+      top: 70px;
+      left: 30px;
+    }
+  </style>
+</head>
+<body>
+<div id="container">
+  <div id="greeting">
+    <p>Hello! Welcome to position planet!</p>
+  </div>
+  <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" alt="Planet">
+</div>
+
+<img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png" alt="Creature">
+</body>
+</html>
