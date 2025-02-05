@@ -1,0 +1,370 @@
+body{
+    width: 100%;
+    height: 1100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header{
+    width:1461px;
+    height:54px;
+}
+.header-s{
+    width: 1315px;
+    height:54px;
+    margin-bottom: 2px;
+    padding: 0 73px;
+}
+.header-content{
+    width: 1315px;
+    height:54px;
+    display: flex;
+    flex-direction: row;
+}
+.header-content li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+.header-logo{
+    width: 121px;
+    height:22px;
+    padding: 16px 6px 16px 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.header-logo img{
+    margin-top: -3px;
+    max-width: none;
+    width: 108px;
+}
+.header-menu{
+    width: 808px;
+    height:54px;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+.menu{
+    width: 808px;
+    height:49px;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    list-style: none;
+    padding: 0;
+}
+.menu-item-1{
+    width: 80px;
+    height: 20px;
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 16px 8px 10px 8px;
+    outline-offset: -2px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu-item-2{
+    width: 34px;
+    height: 20px;
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    outline-offset: -2px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu-item-3{
+    width: 53px;
+    height: 20px;
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    outline-offset: -2px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu-item-4 {
+    width: 68px;
+    height: 20px;
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    outline-offset: -2px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+}
+.menu-item-1 a{
+    text-decoration: none;
+    color: black;
+}
+.menu-item-2 a{
+    text-decoration: none;
+    color: black;
+}
+.menu-item-3 a{
+    text-decoration: none;
+    color: black;
+}
+.menu-item-4 a{
+    text-decoration: none;
+    color: black;
+}
+.header-menu-2{
+    width: 367px;
+    height:54px;
+    display: flex;
+    flex-direction: row;
+}
+.header-menu-2 div:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+.header-products{
+    width: 177px;
+    height: 54px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-products a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+.header-products img{
+    width: 15px;
+    height: 15px;
+    margin-left: 1px;
+    margin-top: 5px;
+    color: black;
+}
+.header-finder{
+    width: 90px;
+    height: 38px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-finder a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+.header-finder img{
+    width: 16px;
+    height: 18px;
+    margin-left: 2px;
+}
+.header-login{
+    width: 99px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-login a{
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+.header-login img{
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+.main{
+    width: 1461px;
+    height:520px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    width: 1461px;
+    height:456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-picture{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.container{
+    width: 1200px;
+    height:350px;
+    padding: 0 73px;
+    margin:48px 1px;
+}
+.form{
+    width: 452px;
+    height:244px;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form h1{
+    width: 400px;
+    height:89px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 0;
+}
+.form p{
+    width: 452px;
+    height:72px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+    margin-top: 0;
+}
+.form button{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    background-color: #0067b8;
+    color: #fff;
+    font-weight: 600;
+    border: .125rem solid transparent;
+    position: relative;
+    border-radius: .125rem;
+    text-decoration: none;
+    padding: .625rem .75rem;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.photo-control {
+    cursor: pointer;
+    background-position: center;
+}
+.photo-control button{
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.photo-control img{
+    width: 216px;
+    height: 62px;
+}
+.bottom{
+    width: 1367px;
+    height: 432px;
+    padding:0 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bottom-content{
+    width: 1391px;
+    height: 432px;
+    display: flex;
+    flex-direction:row;
+    cursor: pointer;
+}
+.widgets{
+    width: 310px;
+    height: 447px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.widgets img{
+    width: 310px;
+    height: 182px;
+}
+.text{
+    width: 310px;
+    height: 195px;
+    padding: 24px 24px 0  24px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.text h2{
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 1.8125rem;
+    font-weight: 600;
+}
+.s{
+    width: 276px;
+    height: 39px;
+    padding: 16px 24px 24px 24px;
+}
+.button-link{
+    width: 276px;
+    height: 55px;
+    margin: -8px 0;
+    display: flex;
+    justify-content: left;
+}
+.button-link a{
+    padding: 6px 12px 10px;
+    border: 2px solid transparent;
+    border-radius:  .125rem;
+    font-weight:  600;
+    margin: 8px 0;
+    background-color: #0067b8;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+.text-1{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
