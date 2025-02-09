@@ -32,7 +32,6 @@ alert( calculator.sum() );
 alert( calculator.mul() );
 
 
-
 let ladder = {
     step: 0,
     up() {

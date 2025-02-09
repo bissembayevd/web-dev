@@ -5,7 +5,6 @@ function B() { return obj; }
 
 alert( new A() == new B() );
 
-
 function Calculator() {
 
     this.read = function() {
@@ -27,7 +26,6 @@ calculator.read();
 
 alert( "Sum=" + calculator.sum() );
 alert( "Mul=" + calculator.mul() );
-
 
 
 
