@@ -68,5 +68,3 @@ function getSecondsToTomorrow() {
 
     return totalSecondsInADay - totalSecondsToday;
 }
-
-

@@ -25,7 +25,6 @@ function truncate(str, maxlength) {
 }
 
 
-
 function extractCurrencyValue(str) {
     return +str.slice(1);
 }

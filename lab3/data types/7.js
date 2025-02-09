@@ -17,7 +17,6 @@ let salaries = {
 alert( sumSalaries(salaries) );
 
 
-
 function count(obj) {
     return Object.keys(obj).length;
 }

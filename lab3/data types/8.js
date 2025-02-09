@@ -9,7 +9,6 @@ alert( name ); // John
 alert( age ); // 30
 alert( isAdmin ); // false
 
-
 function topSalary(salaries) {
 
     let maxSalary = 0;
