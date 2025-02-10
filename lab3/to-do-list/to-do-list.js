@@ -22,7 +22,6 @@ listContainer.addEventListener("click", function (e){
         e.target.parentElement.remove();
     }
 },false);
-
 document.getElementById('todo-input').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
         document.getElementById('todo-button').click(); // Симулируем клик по кнопке
