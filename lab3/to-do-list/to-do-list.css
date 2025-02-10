@@ -63,17 +63,6 @@ ul li {
     cursor: pointer;
     position: relative;
 }
-/*ul li::before {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    height: 28px;*/
-/*    width: 28px;*/
-/*    background-image: url("Material_icons-01-26-512.webp");*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*    top:16px;*/
-/*    left: 1px;*/
-/*}*/
 li.checked{
     color: #555;
     text-decoration: line-through;
