@@ -1,0 +1,6 @@
+<div *ngFor="let company of companies">
+  <button (click)="onSelect(company.id)" class="company-button">
+    <h3>{{ company.name }}</h3>
+  </button>
+</div>
+
